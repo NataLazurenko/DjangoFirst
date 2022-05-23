@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>item_page</title>
+</head>
+<body>
+<h1>Информация о товаре</h1>
+Название: {{ item.name }} <br>
+Бренд: {{ item.brend }} <br>
+Количество: {{ item.count|default:"Товар отсутствует" }}
+
+<br>
+<a href="/items">Назад</a>
+</body>
+</html>
